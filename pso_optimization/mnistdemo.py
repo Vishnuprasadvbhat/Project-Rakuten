@@ -11,7 +11,7 @@ def one_hot(y, depth=10):
     y_1hot[np.arange(y.shape[0]), y] = 1
     return y_1hot
 
-df = pd.read_csv('./datasets/train.csv')
+df = pd.read_csv('datasets\train-images-idx3-ubyte')
 all_data = df.values
 
 np.random.shuffle(all_data)
@@ -42,7 +42,7 @@ model.add_layer(Layer(784, 10, softmax))
 model.compile(CrossEntropyLoss, DataLoader, accuracy,
               batches_per_epoch=x_train.shape[0] // 32 + 1,
               n_workers=50, c1=1., c2=2.)
-model.fit(x_train, y_train, 100)
+model.fit(x_train, y_train, 1)
 y_hat = model.predict(x_test)
 
 print('Accuracy on test:', accuracy(y_test, y_hat))

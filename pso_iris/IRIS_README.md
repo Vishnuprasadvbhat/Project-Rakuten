@@ -16,7 +16,7 @@ Loss Calculation: The loss is calculated using Mean Squared Error (MSE) between 
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vishnuprasadvbhat/Project-Rakuten/master/images/carbon.png" alt="alt"/>
+  <img src="" alt="alt"/>
 </p>
 
 

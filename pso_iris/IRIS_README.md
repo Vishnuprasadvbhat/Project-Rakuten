@@ -1,13 +1,16 @@
 <h1> Implementation of Particle Swarm Optimization (PSO) on Iris Dataset </h1>
 
-## Data preprocessing 
+
+- [About PSO](https://github.com/Vishnuprasadvbhat/Project-Rakuten/blob/master/pso_iris/PSO.README.md)
+
+## Preprocessing Iris Dataset
 
 This script prepares and evaluates a neural network model for the Iris dataset using Particle Swarm Optimization (PSO). 
 
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vishnuprasadvbhat/Project-Rakuten/master/images/carbon.png" alt="alt"/>
+  <img src="https://raw.githubusercontent.com/Vishnuprasadvbhat/Project-Rakuten/master/images/iris_code.png" alt="alt"/>
 </p>
 
 <br>
@@ -56,7 +59,7 @@ The input data (X_train_data) is multiplied by the hidden layer weights.
 ## Metric Evaluation 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vishnuprasadvbhat/Project-Rakuten/master/images/carbon.png" alt="alt"/>
+  <img src="https://raw.githubusercontent.com/Vishnuprasadvbhat/Project-Rakuten/master/images/metrics.png" alt="alt"/>
 </p
 
 This code implements a simple feedforward neural network with one hidden layer. The network is trained and evaluated using NumPy, and metrics such as accuracy and confusion matrix are calculated using `sklearn`.
@@ -111,8 +114,9 @@ The table below shows the best loss values achieved during the first 30 iteratio
 Optimal Weights Found by PSO
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vishnuprasadvbhat/Project-Rakuten/master/images/carbon.png" alt="alt"/>
-</p
+  <img src="https://raw.githubusercontent.com/Vishnuprasadvbhat/Project-Rakuten/master/images/weights.png" alt="alt"/>
+</p>
+
 
 The array of optimal weights represents the best parameters identified by the Particle Swarm Optimization (PSO) algorithm for your neural network model. These weights are crucial for fine-tuning the model’s performance and achieving accurate classification results on the Iris dataset. Each value corresponds to the weight of a particular connection within the neural network, influencing how the model processes input data to make predictions.
 
@@ -120,16 +124,25 @@ The array of optimal weights represents the best parameters identified by the Pa
 ## Accuracy and Confusion Matrix of the Network 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Vishnuprasadvbhat/Project-Rakuten/master/images/carbon.png" alt="alt"/>
-</p
+  <img src="https://raw.githubusercontent.com/Vishnuprasadvbhat/Project-Rakuten/master/images/accuracy.png" alt="alt"/>
+</p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Vishnuprasadvbhat/Project-Rakuten/master/images/matrix.png" alt="alt"/>
 
-## Particle Movement 
+</p>
 
+## **Particle Movement**
+<br>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Vishnuprasadvbhat/Project-Rakuten/master/images/output_particles.png" alt="alt"/>
 
 ## **Convergence of Particle in Search Space**
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Vishnuprasadvbhat/Project-Rakuten/master/images/newplot.png" alt="alt"/>
 
 
 
-- [About PSO](pso_iris\PSO.README.md)
+

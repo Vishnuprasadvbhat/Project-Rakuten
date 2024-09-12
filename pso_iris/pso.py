@@ -1,6 +1,8 @@
 import numpy as np
 from model import train_network_forward_propagation
 
+
+
 def pso_iris(num_particles, num_iterations, hidden_layer_size, X_train_data, y_train_data):
     # PSO parameters
     num_dimensions = 4 * hidden_layer_size + hidden_layer_size * 3
@@ -10,6 +12,7 @@ def pso_iris(num_particles, num_iterations, hidden_layer_size, X_train_data, y_t
     pbest_scores = np.array([train_network_forward_propagation(p, hidden_layer_size, X_train_data, y_train_data) for p in positions])
     gbest_position = pbest_positions[np.argmin(pbest_scores)]
     gbest_score = np.min(pbest_scores)
+
 
     # PSO loop
     w = 0.5  # inertia

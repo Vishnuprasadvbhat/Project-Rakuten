@@ -14,8 +14,9 @@ Input Layer to Hidden Layer: The input data (X_train_data) is multiplied by the 
 Hidden Layer to Output Layer: The output from the hidden layer is passed through the sigmoid activation and then multiplied by the output layer weights.
 Loss Calculation: The loss is calculated using Mean Squared Error (MSE) between the predicted output and the actual labels.</p>
 
+
 <p align="center">
-  <img src="pso_iris/images/carbon.png" alt="alt"/>
+  <img src="https://github.com/Vishnuprasadvbhat/Project-Rakuten/blob/master/pso_iris/images/carbon.png" alt="alt"/>
 </p>
 
 

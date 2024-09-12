@@ -16,9 +16,10 @@ Loss Calculation: The loss is calculated using Mean Squared Error (MSE) between 
 
 
 <p align="center">
-  <img src="" alt="alt"/>
-</p>
+  <img src="https://raw.githubusercontent.com/Vishnuprasadvbhat/Project-Rakuten/master/images/carbon.png" alt="alt"/>
 
+  
+</p>
 
 
 This code implements a simple feedforward neural network with one hidden layer. The network is trained and evaluated using NumPy, and metrics such as accuracy and confusion matrix are calculated using `sklearn`.
